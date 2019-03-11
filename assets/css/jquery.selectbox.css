@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+.sbHolder{
+	background-color: #fff;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: 48px;
+	position: relative;
+	width: 100%;
+	z-index: 120;
+}
+
+.sbHolder:focus .sbSelector{
+	
+}
+
+.sbSelector {
+	display: block;
+	height: 100%;
+	left: 0;
+	line-height: 30px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 10px;
+	top: 0;
+	width: 170px;
+}
+
+.sbHolder .sbSelector {
+	border-right: 1px solid #cccccc;
+	font-size: 16px;
+	width: 85%;
+	padding: 10px;
+}
+
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+	color: #868f98;
+	outline: none;
+	text-decoration: none;
+}
+.sbToggle{
+	/*background: url(../images/select-icons.png) 0 -116px no-repeat;*/
+	display: block;
+	height: 30px;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30px;
+}
+
+.sbHolder .sbToggle {
+	width: 15%;
+	height: 100%;
+	background: url('../images/arrows-select.png') center no-repeat;
+}
+
+.sbHolder .sbToggle:hover{
+	background: url('../images/arrows-select.png') center no-repeat;
+}
+.sbHolder .sbToggleOpen{
+	background: url('../images/arrows-select.png') center no-repeat;
+}
+
+.sbHolder .sbToggleOpen:hover{
+	background: url('../images/arrows-select.png') center no-repeat;
+}
+.sbHolderDisabled{
+	background-color: #3C3C3C;
+	border: solid 1px #515151;
+}
+.sbHolderDisabled .sbHolder{
+	
+}
+.sbHolderDisabled .sbToggle{
+	
+}
+.sbOptions{
+	background-color: #ffffff;
+	border: solid 1px #e3e3e3;
+	list-style: none;
+	left: -1px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 46px !important;
+	width: 237px;
+	z-index: 1;
+	overflow-y: auto;
+	z-index: 125;
+}
+.sbOptions li{
+	padding: 0 7px;
+}
+.sbOptions a{
+	border-bottom: dotted 1px #868f98;
+	display: block;
+	outline: none;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions a:link, .sbOptions a:visited{
+	color: #868f98;
+	text-decoration: none;
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus{
+	color: #868f98;
+}
+.sbOptions li.last a{
+	border-bottom: none;
+}
+.sbOptions .sbDisabled{
+	border-bottom: dotted 1px #868f98;
+	color: #999;
+	display: block;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbGroup{
+	border-bottom: dotted 1px #868f98;
+	color: #EBB52D;
+	display: block;
+	font-weight: bold;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbSub{
+	padding-left: 17px;
+}

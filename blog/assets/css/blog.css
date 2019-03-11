@@ -1,0 +1,145 @@
+.hentry {
+	background: #fff;
+	padding: 30px 18px 20px 18px;
+	margin-top: 30px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.hentry .post-meta {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #BFBFBF;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+.hentry .entry-title {
+	font-size: 20px;
+	line-height: 26px;
+	color: #018752;
+	margin: 0;
+	font-weight: bold;
+}
+
+.hentry .post_thumbnail {
+	margin-top: 15px;
+	position: relative;
+}
+
+.video--post .post_thumbnail:after {
+	content: '';
+	width: 55px;
+	height: 55px;
+	background: url(../images/blog/icon_play_circle_outline.png) no-repeat center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	margin: auto;
+	-webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);	
+}
+
+.hentry .post_thumbnail img {
+	width: 100%;
+	height: auto;
+}
+
+.hentry .entry-content p {
+	margin: 10px 0 0;
+}
+
+.hentry .post-read-more {
+	float: right;
+	background: url(../images/blog/tail-right.svg) no-repeat center right;
+	background-size: 16px auto;
+	display: inline-block;
+	margin-top: 30px;
+	font-size: 13px;
+	line-height: 15px;
+	color: #8EC63F;
+	padding-right: 30px;
+}
+
+.blog--section {
+	padding-bottom: 60px;
+}
+
+.blog-nav {
+	text-align: center;
+	padding-top: 60px;
+}
+
+.blog-nav ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.blog-nav li {
+	display: inline;
+	padding: 0 12px;
+}
+
+.blog-nav li a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+}
+
+.blog-nav li.first a,
+.blog-nav li.last a {
+	background: #018752;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+
+.pad936 {
+	padding-left: 85px;
+	padding-right: 182px;
+}
+
+.single--post .breads {
+	clear: both;
+	overflow: hidden;
+}
+
+.single--post .breads .post-date {
+	float: right;
+	color: #000;
+}
+
+.single--post .breads .breadcrumbs {
+	float: left;
+}
+
+.single--post .blog--section {
+	padding-top: 30px;
+	padding-left: 85px;
+}
+
+.single--post .breads .page--title {
+	font-size: 36px;
+	line-height: 54px;
+	color: #595F66;
+	padding-bottom: 5px;
+}
+
+.single--post .single-post {
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+}
+
+.single--post .single-post p {
+	margin-top: 24px;
+}

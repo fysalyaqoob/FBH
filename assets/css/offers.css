@@ -1,0 +1,380 @@
+.sop-hero {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+img.w-100 {
+    width: 100%;
+    height: auto;
+}
+
+.sop-hero .sopleft {
+    width: 35.63%;
+    min-height: 403px;
+    position: relative;
+}
+
+.sop-hero .sopright {
+    width: 64.33%;
+    min-height: 403px;
+    position: relative;
+    background: url(../images/offers/hero-main.jpg) no-repeat left top;
+    background-size: cover;
+}
+
+.sop-hero .sopleft:before,
+.sop-hero .sopright:before {
+    content: '';
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.55) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.55) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.55) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );    
+}
+
+.sop-hero .bg--green {
+    background: #8CC63E;
+    color: #fff;
+}
+
+.sop-hero .bg--green h3 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: bold;
+    padding: 34px 45px 34px 30px;
+    margin: 0;
+}
+
+.sop-hero .sop-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 130px 30px 29px;
+}
+
+.sop-hero .sop-text strong:first-of-type {
+    font-size: 20px;
+    line-height: 23px;
+    display: block;
+}
+
+.sop-hero .sopright .sop-text {
+    max-width: 392px;
+    padding-right: 0;
+}
+
+.sop-hero .sop-text h2 {
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 9px;
+}
+
+.visaLogo {
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+}
+
+.content--bar .n-row {
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.content--bar {
+    background: #fff;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: #666B72;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.content--bar .alert-bar {
+    font-size: 16px;
+    line-height: 18px;
+    color: #666B72;
+    background: #f6f8f7;
+    padding: 10px 15px;
+}
+
+.content--bar .alert-bar a {
+    background: #f7931e;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    padding: 13px 22px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.content--bar select {
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    color: #595F66;
+    font-size: 16px;
+    line-height: 18px;
+    border-radius: 0;
+    height: 40px;
+    padding: 6px 15px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.ocards .ocard {
+    background: #fff;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666B72;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.055);
+}
+
+.ocards .ocard .ocard-image {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.ocards .ocard .ocard-image > img {
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    max-width: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+
+.ocards .ocard .ocard-body {
+    padding: 20px;
+}
+
+.ocards .ocard h4 {
+    font-size: 20px;
+    line-height: 26px;
+    color: #018752;
+    margin: 0 0 10px;
+    font-weight: bold; 
+    letter-spacing: 0;
+}
+
+.ocards .ocard .learn-more {
+    color: #00a1de;
+}
+
+.ocards .ocard p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.ocards .load-more {
+    background: #fff;
+    margin: 25px auto 30px auto;
+    font-size: 15px;
+    line-height: 17px;
+    color: #666B72;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.055);
+    display: block;
+    text-align: center;
+    padding: 18px 15px;
+}
+
+.px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1230px;
+}
+
+#sop .breads .breadcrumbs > li:not(:first-child) {
+    font-weight: normal;
+    line-height: 1;
+    padding-top: 3px;
+}
+
+.sop--content {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D969E;
+    margin-bottom: 70px;
+}
+
+.sop--content p {
+    margin-bottom: 15px;
+}
+
+.sop--content h2 {
+    font-size: 32px;
+    line-height: 37px;
+    color: #388457;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.sop-wrapper {
+    padding: 0 7%;
+}
+
+@media (min-width: 992px) {
+    .sopImage {
+        height: 385px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 70px;
+    }
+
+    .sopImage > img {
+        min-height: 100%;
+        min-width: 100%;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        max-width: inherit;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%); 
+    }
+}
+
+@media (max-width: 1024.98px) {
+    .sop-hero .sopleft,
+    .sop-hero .sopright {
+        width: 100%;
+    }
+    
+    .sop-hero .sopleft {
+        min-height: 1px;
+    }
+    
+    .sopleft .sopcontent {
+        display: none;
+    }
+    
+    .sop-hero .sopleft:before {
+        display: none;
+    }
+    
+    .sop-hero .sopright {
+        min-height: 570px;
+    }
+
+    #sop .breads .page--title {
+        font-size: 20px;
+        padding: 20px 0 10px;
+    }
+    
+    #sop .breads {
+        padding: 0 0 15px;
+    }
+    
+    #sop .breads .xs-breads {
+        display: block!important;
+    }
+    
+    .content--bar {
+        margin: 0;
+        padding: 15px 0;
+    }
+    
+    .content--bar .alert-bar {
+        margin-bottom: 15px;
+    }
+    
+    .bg-white-xs {
+        background: #fff;
+    }
+    
+    .ocards .ocard {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .sopImage > img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .sopImage {
+        margin-bottom: 30px;
+    }
+    
+    .sop-wrapper {
+        padding: 0 80px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .sop-hero .sopright {
+        min-height: 360px;
+    }
+    
+    .visaLogo {
+        width: 82px;
+        right: 20px;
+        bottom: 30px;
+    }
+    
+    .visaLogo > img {
+        max-width: 100%;
+    }
+    
+    .sop-hero .sop-text h2 {
+        max-width: 200px;
+        font-size: 26px;
+        line-height: 31px;
+        margin: 0 0 9px;
+    }
+    
+    .content--bar .alert-bar {
+        text-align: center;
+    }
+    
+    .content--bar .alert-bar a {
+        display: block;
+        text-align: center;
+    }
+    
+    .content--bar .alert-bar span {
+        padding: 10px 35px;
+        display: block;
+    }
+    
+    .content--bar span {
+        display: none;
+    }
+    
+    .content--bar select {
+        display: block;
+        width: 100%;
+        margin: 0 0 10px 0;
+        box-sizing: border-box;
+    }
+    
+    .content--bar {
+        padding-bottom: 5px;
+    }
+    
+    .sop-wrapper {
+        padding: 0 15px;
+    }
+}
